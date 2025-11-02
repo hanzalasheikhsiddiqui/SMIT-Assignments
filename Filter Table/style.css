@@ -1,0 +1,56 @@
+:root{
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;
+  background:var(--bg);
+  margin:0;
+  padding:24px;
+  color:#111827;
+}
+.container{
+  max-width:900px;
+  margin:0 auto;
+  background:var(--card);
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(16,24,40,0.06);
+}
+h1{
+    margin:0 0 12px 0
+}
+.controls{
+  display:flex;
+  gap:10px;
+  margin-bottom:14px;
+}
+input, select{
+  padding:10px 12px;
+  border:1px solid #e5e7eb;
+  border-radius:8px;
+  font-size:15px;
+  outline:none;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+thead th{
+  text-align:left;
+  font-size:13px;
+  color:var(--muted);
+  padding:8px 6px;
+  border-bottom:1px solid #eef2f7;
+}
+tbody td{
+  padding:10px 6px;
+  border-bottom:1px dashed #f1f5f9;
+}
+.hidden{
+  display:none;
+}

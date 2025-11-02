@@ -1,0 +1,80 @@
+    <!doctype html>
+<html lang="ur">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Filterable Table Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Employees</h1>
+
+    <div class="controls">
+      <input id="search" placeholder="Search name, role, city..." />
+      <select id="roleFilter">
+        <option value="">All roles</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="manager">Manager</option>
+      </select>
+    </div>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+           <tr>
+          <td>Hanzala</td>
+          <td>Developer</td>
+          <td>Karachi</td>
+        </tr>
+      </tbody>
+          <tr>
+              <td>Sara Ahmed</td>
+              <td>Designer</td>
+              <td>Lahore</td>
+            </tr>
+            <tr>
+              <td>Ali Khan</td>
+              <td>Developer</td>
+              <td>Karachi</td>
+            </tr>
+            <tr>
+          <td>Usman Rauf</td>
+          <td>Manager</td>
+          <td>Islamabad</td>
+        </tr>
+        <tr>
+          <td>Ayesha</td>
+          <td>Developer</td>
+          <td>Multan</td>
+        </tr>
+      </tbody>
+       <tr>
+          <td>Saad</td>
+          <td>Designer</td>
+          <td>Multan</td>
+        </tr>
+      </tbody>   <tr>
+          <td>Umer</td>
+          <td>Developer</td>
+          <td>Lahore</td>
+        </tr>
+      </tbody>   <tr>
+          <td>Ibrahim</td>
+          <td>Designer</td>
+          <td>Lahore</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
